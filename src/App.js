@@ -5,7 +5,7 @@ import { Grid, Spacer } from "./components/GenericStyled";
 
 function App() {
     return (
-        <Spacer style={{ paddingBottom: "2rem" }}>
+        <Spacer>
             <h1>30 Projects in 30 Days</h1>
             <div>
                 <span>Hi! </span>
@@ -22,6 +22,7 @@ function App() {
                             index={i + 1}
                             text={project.title}
                             image={project.image}
+                            link={project.link}
                         />
                     ))}
                 </Grid>

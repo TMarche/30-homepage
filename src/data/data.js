@@ -1,9 +1,10 @@
-import homePageImage from "../image/30-homepage.png";
+import homePageImage from "../images/30-homepage.png";
 
 export const projects = [
     {
         title: "Home Page",
         image: homePageImage,
+        link: "https://30-homepage.vercel.app/",
     },
     {
         title: "Color Picker",

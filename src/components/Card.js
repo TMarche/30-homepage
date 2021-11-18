@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { FlexRow } from "./GenericStyled";
+import { FlexRow, ZoomImage } from "./GenericStyled";
 
-const Card = ({ className, text, index, image }) => {
+const Card = ({ className, text, index, image, link }) => {
     return (
         <div className={className}>
             <FlexRow
@@ -17,14 +17,11 @@ const Card = ({ className, text, index, image }) => {
                 <div>{index}</div>
                 <div>{text}</div>
             </FlexRow>
-            <div
-                style={{
-                    height: "200px",
-                    width: "100%",
-                    backgroundImage: `url(${image})`,
-                    backgroundSize: "cover",
-                }}
-            ></div>
+            <div style={{ overflow: "hidden" }}>
+                <a href={link}>
+                    <ZoomImage image={image} height="200px" />
+                </a>
+            </div>
             <div
                 style={{
                     padding: "10px",

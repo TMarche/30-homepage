@@ -8,7 +8,7 @@ export const Grid = styled.div`
 `;
 
 export const Spacer = styled.div`
-    margin: 2rem;
+    padding: 2rem;
 `;
 
 export const FlexRow = styled.div`
@@ -16,4 +16,17 @@ export const FlexRow = styled.div`
     align-items: center;
     justify-content: space-between;
     width: 100%;
+`;
+
+export const ZoomImage = styled.div`
+    height: ${(props) => (props.height ? props.height : "200px")};
+    background-image: url(${(props) => props.image});
+    width: 100%;
+    background-size: cover;
+
+    transition: transform 0.5s ease;
+
+    :hover {
+        transform: scale(1.2);
+    }
 `;
