@@ -1,32 +1,95 @@
+import homePageImage from "../image/30-homepage.png";
+
 export const projects = [
-    "Home Page",
-    "Color Picker",
-    "Color Theme Creator",
-    "Style Theme Creator",
-    "Toast Manager",
-    "Modal Manager",
-    "Bootstrap Practice",
-    "Tailwind Practice",
-    "Polling System",
-    "Scheduler",
-    "Gantt Chart",
-    "Account System",
-    "Sushi Buddy",
-    "Advanced Polling System",
-    "Chat Room",
-    "Analog Clock",
-    "Drag and Drop Lists",
-    "Slip Box System",
-    "Cooking Journal",
-    "HTML Form Builder",
-    "Interactive FretBoard",
-    "Excel Parser",
-    "Planets",
-    "Calculator",
-    "API Buddy",
-    "Swagger Schema Practice",
-    "Beer Me",
-    "Excel Parser with Ag-Grid",
-    "Blog",
-    "Portfolio",
+    {
+        title: "Home Page",
+        image: homePageImage,
+    },
+    {
+        title: "Color Picker",
+    },
+    {
+        title: "Color Theme Creator",
+    },
+    {
+        title: "Style Theme Creator",
+    },
+    {
+        title: "Toast Manager",
+    },
+    {
+        title: "Modal Manager",
+    },
+    {
+        title: "Bootstrap Practice",
+    },
+    {
+        title: "Tailwind Practice",
+    },
+    {
+        title: "Polling System",
+    },
+    {
+        title: "Scheduler",
+    },
+    {
+        title: "Gantt Chart",
+    },
+    {
+        title: "Account System",
+    },
+    {
+        title: "Sushi Buddy",
+    },
+    {
+        title: "Advanced Polling System",
+    },
+    {
+        title: "Chat Room",
+    },
+    {
+        title: "Analog Clock",
+    },
+    {
+        title: "Drag and Drop Lists",
+    },
+    {
+        title: "Slip Box System",
+    },
+    {
+        title: "Cooking Journal",
+    },
+    {
+        title: "HTML Form Builder",
+    },
+    {
+        title: "Interactive FretBoard",
+    },
+    {
+        title: "Excel Parser",
+    },
+    {
+        title: "Planets",
+    },
+    {
+        title: "Calculator",
+    },
+    {
+        title: "API Buddy",
+    },
+    {
+        title: "Swagger Schema Practice",
+    },
+    {
+        title: "Beer Me",
+    },
+    {
+        title: "Excel Parser with Ag-Grid",
+    },
+    {
+        title: "Blog",
+    },
+    {
+        title: "Portfolio",
+    },
 ];

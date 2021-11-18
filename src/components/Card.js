@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { FlexRow } from "./GenericStyled";
-import image from "../image/30-homepage.png";
 
-const Card = ({ className, text, index }) => {
+const Card = ({ className, text, index, image }) => {
     return (
         <div className={className}>
             <FlexRow

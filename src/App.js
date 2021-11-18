@@ -16,11 +16,12 @@ function App() {
             <Spacer>
                 <h2>Projects</h2>
                 <Grid>
-                    {projects.map((projectName, i) => (
+                    {projects.map((project, i) => (
                         <Card
-                            key={projectName}
+                            key={project.title}
                             index={i + 1}
-                            text={projectName}
+                            text={project.title}
+                            image={project.image}
                         />
                     ))}
                 </Grid>
