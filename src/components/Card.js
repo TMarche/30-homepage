@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { FlexRow } from "./GenericStyled";
+import image from "../image/30-homepage.png";
 
 const Card = ({ className, text, index }) => {
     return (
@@ -19,11 +20,18 @@ const Card = ({ className, text, index }) => {
             </FlexRow>
             <div
                 style={{
+                    height: "200px",
+                    width: "100%",
+                    backgroundImage: `url(${image})`,
+                    backgroundSize: "cover",
+                }}
+            ></div>
+            <div
+                style={{
                     padding: "10px",
                     borderRadius: "0 0 10px 10px",
                 }}
             >
-                <div>Image</div>
                 <div>Completed: </div>
             </div>
         </div>
