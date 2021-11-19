@@ -26,6 +26,8 @@ const Card = ({ className, text, index, image, link }) => {
                 style={{
                     padding: "10px",
                     borderRadius: "0 0 10px 10px",
+                    backgroundColor: "#111",
+                    color: "white",
                 }}
             >
                 <div>Completed: </div>

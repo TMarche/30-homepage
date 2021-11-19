@@ -1,4 +1,5 @@
 import homePageImage from "../images/30-homepage.png";
+import colorPickerImage from "../images/30-color-picker.png";
 
 export const projects = [
     {
@@ -8,6 +9,8 @@ export const projects = [
     },
     {
         title: "Color Picker",
+        image: colorPickerImage,
+        link: "https://30-color-picker.vercel.app/",
     },
     {
         title: "Color Theme Creator",

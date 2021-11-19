@@ -23,6 +23,7 @@ export const ZoomImage = styled.div`
     background-image: url(${(props) => props.image});
     width: 100%;
     background-size: cover;
+    background-position: center;
 
     transition: transform 0.5s ease;
 
