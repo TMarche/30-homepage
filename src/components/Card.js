@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { FlexRow, ZoomImage } from "./GenericStyled";
 
-const Card = ({ className, text, index, image, link }) => {
+const Card = ({ className, text, index, image, link, completionDate }) => {
     return (
         <div className={className}>
             <FlexRow
@@ -30,7 +30,7 @@ const Card = ({ className, text, index, image, link }) => {
                     color: "white",
                 }}
             >
-                <div>Completed: </div>
+                <div>Completed: {completionDate}</div>
             </div>
         </div>
     );

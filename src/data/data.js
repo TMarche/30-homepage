@@ -1,25 +1,36 @@
 import homePageImage from "../images/30-homepage.png";
 import colorPickerImage from "../images/30-color-picker.png";
 import catFactImage from "../images/30-cat-fact.png";
+import colorThemeCreatorImage from "../images/30-color-theme-creator.png";
 
 export const projects = [
     {
         title: "Home Page",
         image: homePageImage,
         link: "https://30-homepage.vercel.app/",
+        completionDate: "11/17/2021",
+        difficulty: "easy",
     },
     {
         title: "Color Picker",
         image: colorPickerImage,
         link: "https://30-color-picker.vercel.app/",
+        completionDate: "11/18/2021",
+        difficulty: "easy",
     },
     {
         title: "Cat Fact",
         image: catFactImage,
         link: "https://30-cat-fact.vercel.app/",
+        completionDate: "11/19/2021",
+        difficulty: "easy",
     },
     {
         title: "Color Theme Creator",
+        image: colorThemeCreatorImage,
+        link: "https://30-color-theme-creator.vercel.app",
+        completionDate: "11/26/2021",
+        difficulty: "moderate",
     },
     {
         title: "Style Theme Creator",

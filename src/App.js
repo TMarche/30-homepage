@@ -23,6 +23,7 @@ function App() {
                             text={project.title}
                             image={project.image}
                             link={project.link}
+                            completionDate={project.completionDate}
                         />
                     ))}
                 </Grid>
